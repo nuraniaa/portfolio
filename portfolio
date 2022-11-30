@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color:rgb(177, 210, 236);
+        }
+        .menu{
+            max-width: 1640px;
+            display: flex;
+            justify-content: space-between;
+            margin: 30px;
+        }
+        html{
+            background: #041125;
+        }
+        a{
+            text-decoration: 0;
+            color: white;
+        }
+        .nav{display:flex; gap:40px;}
+        .media-icon{width:40px;}
+        .intro{
+            max-width: 1640px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+             }
+             .profile-photo{
+                width: 300px;
+                border-radius: 50%;
+             }
+             .contacts{
+                height: 40px;
+                border: 1px solid rgb(41, 12, 104);
+border-radius: 16px;
+             }
+             .project{
+                max-width: 320px;
+                border: 1px solid rgba(41, 12, 104);
+border-radius: 16px;
+padding: 20px; }
+.project-image{width: 320px; border-radius: 16px;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <img src="images/Logo.svg" alt="" class="logo">
+        <div class="nav">
+            <a href="#"><span class="list">HOME</span></a>
+            <a href="https://www.instagram.com/yanurania/"><span class="list">INSTAGRAM</span></a>
+            <a href="https://www.behance.net/nuraniaisaeva"><span class="list">BEHANCE</span></a>
+        </div>
+        </div>
+    <div class="intro">
+        <div class="intro-text">
+            <h1>Nurania Isaeva</h1>
+            <p>Computer Design student at Ala-Too International University</p>
+            <div class="media">
+               </div>
+        </div>
+        <img class="profile-photo" src="https://i.pinimg.com/736x/59/de/dd/59dedd3436112a65a1b3a3610567842e.jpg" alt="">
+        <div class="contacts">
+
+            <img src="" alt="">
+            <a href="https://wa.me/+996707316202">
+                Contact me via Whatsapp</a>
+        </div>
+    </div>
+    <h1>Portfolio</h1>
+    <div class="portfolio">
+        <div class="project">
+            <h3>About My Site</h3>
+            <p>This site was made for my college homework. Visual Studio Code helped me to make this effect. I am looking for more project in the future. </p>
+            <img src="images/1561a2bdff6e9bc057d7895d60996222.jpg" alt="" class="project-image">
+        </div>
+        <div class="project">
+            <h3>About My Projects and Illustrations</h3>
+            <p>You can check my projects and illustrations on my Behance accaount. Most of my projects are there. </p>
+            <img src="images/1561a2bdff6e9bc057d7895d60996222.jpg" alt="" class="project-image">
+        </div>
+        <div class="project">
+            <h3>How to contact me?</h3>
+            <p> You can contact me on Behance, Instagram and Whatsapp. </p>
+            <img src="images/1561a2bdff6e9bc057d7895d60996222.jpg" alt="" class="project-image"></div>
+    </div>
+</body>
+</html>
